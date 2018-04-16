@@ -3,3 +3,6 @@
 
 # phyreg #
 [https://github.com/bigjosh/phyreg](https://github.com/bigjosh/phyreg)
+
+# devkmem #
+[https://github.com/jarsonfang/devkmem](https://github.com/jarsonfang/devkmem)

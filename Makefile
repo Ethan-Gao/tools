@@ -3,10 +3,10 @@ LD	=	arm-linux-gnueabihf-gcc
 CFLAGS	=	-g -Wall -O0
 LFLAGS	=	
 
-all:phyreg devmem2
+all:phyreg devmem2 devkmem
 
 clean:
-	rm -rf *.o phyreg devmem2
+	rm -rf *.o phyreg devmem2 devkmem
 
 #############################
 %:%.o
