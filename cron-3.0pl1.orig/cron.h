@@ -35,6 +35,7 @@
 #include <bitstring.h>
 #include <pwd.h>
 #include <sys/wait.h>
+#include <time.h>
 
 #include "pathnames.h"
 #include "config.h"

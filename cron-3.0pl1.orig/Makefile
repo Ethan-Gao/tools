@@ -69,7 +69,7 @@ OPTIM		=	-g
 #<<lint flags of choice?>>
 LINTFLAGS	=	-hbxa $(INCLUDE) $(COMPAT) $(DEBUGGING)
 #<<want to use a nonstandard CC?>>
-#CC		=	vcc
+CC		=	arm-linux-gnueabihf-gcc
 #<<manifest defines>>
 DEFS		=
 #(SGI IRIX systems need this)
