@@ -1,0 +1,15 @@
+1. cp cron crontab to arm board
+2. create /etc/crontab.config as config file
+SHELL=/bin/sh
+PATH=/sbin:/bin:/usr/bin:/usr/sbin
+HOME=/
+
+* * * * * /usr/app/test.sh
+3. create test.sh:
+#!/bin/sh
+
+date >> /usr/app/test.log
+echo >> /usr/app/test.log
+4. start cron and crontab by:
+$ crontab /etc/crontab.config && cron
+5. see test.log for result
