@@ -3,7 +3,7 @@ LD	=	arm-linux-gnueabihf-gcc
 CFLAGS	=	-g -Wall -O0
 LFLAGS	=	
 
-all:phyreg devmem2 devkmem cron
+all:phyreg devmem2 devkmem cron evtest
 
 clean:
 	rm -rf *.o phyreg devmem2 devkmem
